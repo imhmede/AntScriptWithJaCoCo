@@ -31,24 +31,29 @@ To compile all the Java files, run the following command in your terminal:
 
 ```bash
 ant compile
-'''''
+```
 
 ### Clean and Compile
 To clean, compile, and run the program, run the following command in your terminal:
 ```bash
 ant clean compile
-'''''
+```
 
 ### Running Tests
 To run the unit tests and code coverage analysis, use the following command in your terminal:
 ```bash
 ant test
-'''''
+```
 
 ### Generating Code Coverage Reports
 To generate code coverage reports after running tests, use the following command:
 ```bash
 ant report
-'''''
+```
+
+### Running all above
+```bash
+ant
+```
 
 
